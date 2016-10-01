@@ -1,0 +1,11 @@
+---
+  version: '2'
+
+  services:
+    driblikers:
+      build: .
+      volumes:
+        - ./:/usr/local/app:rw # mount source code
+      environment:
+        PYTHONUNBUFFERED: 1
+

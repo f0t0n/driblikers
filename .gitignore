@@ -1,0 +1,28 @@
+*.py[cod]
+__pycache__
+# Installer logs
+pip-log.txt
+
+# Backup files
+*~
+
+# Tests
+.coverage
+.cache
+cover
+htmlcov
+
+# python virtual environment
+env
+.env
+dist
+build
+*.egg-info
+
+
+# files in base config
+file-storage
+
+# local pip cache
+/.pip-cache
+
